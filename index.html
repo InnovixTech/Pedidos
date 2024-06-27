@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!---Coding By CodingLab | www.codinglabweb.com--->
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>InnovixTech</title>
+    <!---Custom CSS File--->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <header>Realizar Orden.</header>
+      <form action="https://formsubmit.co/innovixtech.py@gmail.com" method="POST" class="form">
+        <div class="input-box">
+          <label>Nombre y Apellido</label>
+          <input type="text" name"text" placeholder="Nombre y Apellido" required />
+        </div>
+
+        <div class="input-box">
+          <label>Correo electrónico</label>
+          <input type="email" name"email" placeholder="usuario@gmail.com" required />
+        </div>
+
+        <div class="column">
+          <div class="input-box">
+            <label>Número de teléfono</label>
+            <input type="number" name"number" placeholder="+595 --- --- ---" required />
+          </div>
+        </div>
+        <div class="gender-box">
+          <h3>Servicio</h3>
+          <div class="gender-option">
+            <div class="gender">
+              <input type="radio" name"radio" id="check-male" name="gender" checked />
+              <label for="check-male">Seguidores</label>
+            </div>
+            <div class="gender">
+              <input type="radio" name"radio" id="check-female" name="gender" />
+              <label for="check-female">Likes</label>
+            </div>
+          </div>
+        </div>
+        <div class="input-box address">
+          <label>Plataforma</label>
+          <div class="column">
+            <div class="select-box">
+              <select>
+                <option>Instagram</option>
+                <option>TikTok</option>
+                <option>YouTube</option>
+              </select>
+            </div>
+            <input type="number" name"number" placeholder="Cantidad" required />
+          </div>
+          <div class="column">
+            <input type="text" name"text" placeholder="Link" required />
+          </div>
+        </div>
+        <button type"submit" >Enviar Orden</button>
+      </form>
+    </section>
+  </body>
+</html>
